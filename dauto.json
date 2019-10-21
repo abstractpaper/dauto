@@ -1,0 +1,4 @@
+[
+    "go test -v github.com/abstractpaper/dauto/./...",
+    "echo bang!"
+]
