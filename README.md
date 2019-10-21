@@ -31,11 +31,11 @@ dauto hook $GOPATH/foo/bar
 echo '["go test -v foo/bar/./...", "echo win!"]' >> $GOPATH/foo/bar/dauto.json
 ```
 
-That's it! Now try to add and commit your changes and see what happens. Commands in your `dauto.json` file have to execute successfully otherwise your commit will halt.
+That's it! Now try to add and commit your changes and see what happens. All commands in your `dauto.json` file have to execute successfully otherwise your commit will halt.
 
 `dauto.json`
 --
-The configuration file for describing dauto jobs. All commands are executed in order; for example:
+The configuration file for describing dauto jobs. Commands are executed in order; for example:
 
 ```json
 [
