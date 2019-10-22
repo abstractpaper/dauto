@@ -27,6 +27,7 @@ func Run(cmd *cobra.Command, args []string) {
 	run(args...)
 }
 
+// Find and execute dauto.json file found at dir
 func run(args ...string) error {
 	log.Printf("%s", Green("Dauto: starting..."))
 
