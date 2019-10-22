@@ -36,6 +36,6 @@ func TestFileExistsFound(t *testing.T) {
 	// File should exist
 	exists, _ := FileExists(path)
 	if !exists {
-		t.Fatalf("Expected: file exists; Got: file does exist at %s", path)
+		t.Fatalf("Expected: file exists; Got: file does not exist at %s", path)
 	}
 }
